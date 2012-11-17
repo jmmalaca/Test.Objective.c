@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7055E76A159F603F00B6736D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055E769159F603F00B6736D /* Cocoa.framework */; };
+		7055E774159F603F00B6736D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7055E772159F603F00B6736D /* InfoPlist.strings */; };
+		7055E776159F603F00B6736D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7055E775159F603F00B6736D /* main.m */; };
+		7055E77A159F604000B6736D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7055E778159F604000B6736D /* Credits.rtf */; };
+		7055E780159F604000B6736D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7055E77E159F604000B6736D /* MainMenu.xib */; };
+		7055E788159F604000B6736D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055E787159F604000B6736D /* SenTestingKit.framework */; };
+		7055E789159F604000B6736D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7055E769159F603F00B6736D /* Cocoa.framework */; };
+		7055E791159F604000B6736D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7055E78F159F604000B6736D /* InfoPlist.strings */; };
+		7055E794159F604000B6736D /* cocOaTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7055E793159F604000B6736D /* cocOaTestTests.m */; };
+		7055E79F159F63E600B6736D /* myObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7055E79E159F63E600B6736D /* myObject.m */; };
+		70A0FE9E15A0FA2C0002845B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A0FE9D15A0FA2C0002845B /* WebKit.framework */; };
+		70C7F1A615A185F900C64364 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A0FEA015A135010002845B /* Quartz.framework */; };
+		70C7F55015A14AB9001D7BAE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C7F54F15A14AB9001D7BAE /* OpenGL.framework */; };
+		70C7F55415A14B0D001D7BAE /* openGL_contrOL.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7F55315A14B0D001D7BAE /* openGL_contrOL.m */; };
+		70D80B79159F79D100D9683F /* contrOL.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D80B78159F79D100D9683F /* contrOL.m */; };
+		70EA3D5015B08EEF00BA49F0 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA3D4F15B08EEF00BA49F0 /* Server.m */; };
+		70EA3D5615B0956E00BA49F0 /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EA3D5515B0956E00BA49F0 /* Pessoa.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7055E78A159F604000B6736D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7055E75C159F603F00B6736D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7055E764159F603F00B6736D;
+			remoteInfo = cocOaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7055E765159F603F00B6736D /* cocOaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocOaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7055E769159F603F00B6736D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7055E76C159F603F00B6736D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7055E76D159F603F00B6736D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7055E76E159F603F00B6736D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7055E771159F603F00B6736D /* cocOaTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cocOaTest-Info.plist"; sourceTree = "<group>"; };
+		7055E773159F603F00B6736D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7055E775159F603F00B6736D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7055E777159F603F00B6736D /* cocOaTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cocOaTest-Prefix.pch"; sourceTree = "<group>"; };
+		7055E779159F604000B6736D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7055E77F159F604000B6736D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7055E786159F604000B6736D /* cocOaTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocOaTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7055E787159F604000B6736D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7055E78E159F604000B6736D /* cocOaTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cocOaTestTests-Info.plist"; sourceTree = "<group>"; };
+		7055E790159F604000B6736D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7055E792159F604000B6736D /* cocOaTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocOaTestTests.h; sourceTree = "<group>"; };
+		7055E793159F604000B6736D /* cocOaTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocOaTestTests.m; sourceTree = "<group>"; };
+		7055E79D159F63E600B6736D /* myObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myObject.h; path = ../myObject.h; sourceTree = "<group>"; };
+		7055E79E159F63E600B6736D /* myObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myObject.m; path = ../myObject.m; sourceTree = "<group>"; };
+		70A0FE9D15A0FA2C0002845B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		70A0FEA015A135010002845B /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		70C7F1A415A181FE00C64364 /* cartoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cartoon.jpg; path = ../cartoon.jpg; sourceTree = "<group>"; };
+		70C7F54F15A14AB9001D7BAE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		70C7F55215A14B0D001D7BAE /* openGL_contrOL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openGL_contrOL.h; sourceTree = "<group>"; };
+		70C7F55315A14B0D001D7BAE /* openGL_contrOL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openGL_contrOL.m; sourceTree = "<group>"; };
+		70D80B77159F79D100D9683F /* contrOL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = contrOL.h; path = ../contrOL.h; sourceTree = "<group>"; };
+		70D80B78159F79D100D9683F /* contrOL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = contrOL.m; path = ../contrOL.m; sourceTree = "<group>"; };
+		70EA3D4E15B08EEF00BA49F0 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Server.h; path = ../Server.h; sourceTree = "<group>"; };
+		70EA3D4F15B08EEF00BA49F0 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Server.m; path = ../Server.m; sourceTree = "<group>"; };
+		70EA3D5315B0955200BA49F0 /* Protocolo_Pessoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocolo_Pessoa.h; sourceTree = "<group>"; };
+		70EA3D5415B0956E00BA49F0 /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		70EA3D5515B0956E00BA49F0 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7055E762159F603F00B6736D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C7F1A615A185F900C64364 /* Quartz.framework in Frameworks */,
+				70C7F55015A14AB9001D7BAE /* OpenGL.framework in Frameworks */,
+				70A0FE9E15A0FA2C0002845B /* WebKit.framework in Frameworks */,
+				7055E76A159F603F00B6736D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7055E782159F604000B6736D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7055E788159F604000B6736D /* SenTestingKit.framework in Frameworks */,
+				7055E789159F604000B6736D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7055E75A159F603F00B6736D = {
+			isa = PBXGroup;
+			children = (
+				7055E76F159F603F00B6736D /* cocOaTest */,
+				7055E78C159F604000B6736D /* cocOaTestTests */,
+				7055E768159F603F00B6736D /* Frameworks */,
+				7055E766159F603F00B6736D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7055E766159F603F00B6736D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7055E765159F603F00B6736D /* cocOaTest.app */,
+				7055E786159F604000B6736D /* cocOaTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7055E768159F603F00B6736D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70C7F54F15A14AB9001D7BAE /* OpenGL.framework */,
+				70A0FEA015A135010002845B /* Quartz.framework */,
+				70A0FE9D15A0FA2C0002845B /* WebKit.framework */,
+				7055E769159F603F00B6736D /* Cocoa.framework */,
+				7055E787159F604000B6736D /* SenTestingKit.framework */,
+				7055E76B159F603F00B6736D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7055E76B159F603F00B6736D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7055E76C159F603F00B6736D /* AppKit.framework */,
+				7055E76D159F603F00B6736D /* CoreData.framework */,
+				7055E76E159F603F00B6736D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7055E76F159F603F00B6736D /* cocOaTest */ = {
+			isa = PBXGroup;
+			children = (
+				70C7F1A415A181FE00C64364 /* cartoon.jpg */,
+				7055E79D159F63E600B6736D /* myObject.h */,
+				7055E79E159F63E600B6736D /* myObject.m */,
+				70D80B77159F79D100D9683F /* contrOL.h */,
+				70D80B78159F79D100D9683F /* contrOL.m */,
+				70C7F55215A14B0D001D7BAE /* openGL_contrOL.h */,
+				70C7F55315A14B0D001D7BAE /* openGL_contrOL.m */,
+				70EA3D4E15B08EEF00BA49F0 /* Server.h */,
+				70EA3D4F15B08EEF00BA49F0 /* Server.m */,
+				70EA3D5315B0955200BA49F0 /* Protocolo_Pessoa.h */,
+				70EA3D5415B0956E00BA49F0 /* Pessoa.h */,
+				70EA3D5515B0956E00BA49F0 /* Pessoa.m */,
+				7055E77E159F604000B6736D /* MainMenu.xib */,
+				7055E770159F603F00B6736D /* Supporting Files */,
+			);
+			path = cocOaTest;
+			sourceTree = "<group>";
+		};
+		7055E770159F603F00B6736D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7055E771159F603F00B6736D /* cocOaTest-Info.plist */,
+				7055E772159F603F00B6736D /* InfoPlist.strings */,
+				7055E775159F603F00B6736D /* main.m */,
+				7055E777159F603F00B6736D /* cocOaTest-Prefix.pch */,
+				7055E778159F604000B6736D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7055E78C159F604000B6736D /* cocOaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7055E792159F604000B6736D /* cocOaTestTests.h */,
+				7055E793159F604000B6736D /* cocOaTestTests.m */,
+				7055E78D159F604000B6736D /* Supporting Files */,
+			);
+			path = cocOaTestTests;
+			sourceTree = "<group>";
+		};
+		7055E78D159F604000B6736D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7055E78E159F604000B6736D /* cocOaTestTests-Info.plist */,
+				7055E78F159F604000B6736D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7055E764159F603F00B6736D /* cocOaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7055E797159F604000B6736D /* Build configuration list for PBXNativeTarget "cocOaTest" */;
+			buildPhases = (
+				7055E761159F603F00B6736D /* Sources */,
+				7055E762159F603F00B6736D /* Frameworks */,
+				7055E763159F603F00B6736D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cocOaTest;
+			productName = cocOaTest;
+			productReference = 7055E765159F603F00B6736D /* cocOaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7055E785159F604000B6736D /* cocOaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7055E79A159F604000B6736D /* Build configuration list for PBXNativeTarget "cocOaTestTests" */;
+			buildPhases = (
+				7055E781159F604000B6736D /* Sources */,
+				7055E782159F604000B6736D /* Frameworks */,
+				7055E783159F604000B6736D /* Resources */,
+				7055E784159F604000B6736D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7055E78B159F604000B6736D /* PBXTargetDependency */,
+			);
+			name = cocOaTestTests;
+			productName = cocOaTestTests;
+			productReference = 7055E786159F604000B6736D /* cocOaTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7055E75C159F603F00B6736D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7055E75F159F603F00B6736D /* Build configuration list for PBXProject "cocOaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7055E75A159F603F00B6736D;
+			productRefGroup = 7055E766159F603F00B6736D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7055E764159F603F00B6736D /* cocOaTest */,
+				7055E785159F604000B6736D /* cocOaTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7055E763159F603F00B6736D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7055E774159F603F00B6736D /* InfoPlist.strings in Resources */,
+				7055E77A159F604000B6736D /* Credits.rtf in Resources */,
+				7055E780159F604000B6736D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7055E783159F604000B6736D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7055E791159F604000B6736D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7055E784159F604000B6736D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7055E761159F603F00B6736D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7055E776159F603F00B6736D /* main.m in Sources */,
+				7055E79F159F63E600B6736D /* myObject.m in Sources */,
+				70D80B79159F79D100D9683F /* contrOL.m in Sources */,
+				70C7F55415A14B0D001D7BAE /* openGL_contrOL.m in Sources */,
+				70EA3D5015B08EEF00BA49F0 /* Server.m in Sources */,
+				70EA3D5615B0956E00BA49F0 /* Pessoa.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7055E781159F604000B6736D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7055E794159F604000B6736D /* cocOaTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7055E78B159F604000B6736D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7055E764159F603F00B6736D /* cocOaTest */;
+			targetProxy = 7055E78A159F604000B6736D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7055E772159F603F00B6736D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7055E773159F603F00B6736D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7055E778159F604000B6736D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7055E779159F604000B6736D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7055E77E159F604000B6736D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7055E77F159F604000B6736D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7055E78F159F604000B6736D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7055E790159F604000B6736D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7055E795159F604000B6736D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7055E796159F604000B6736D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7055E798159F604000B6736D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocOaTest/cocOaTest-Prefix.pch";
+				INFOPLIST_FILE = "cocOaTest/cocOaTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7055E799159F604000B6736D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocOaTest/cocOaTest-Prefix.pch";
+				INFOPLIST_FILE = "cocOaTest/cocOaTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7055E79B159F604000B6736D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cocOaTest.app/Contents/MacOS/cocOaTest";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocOaTest/cocOaTest-Prefix.pch";
+				INFOPLIST_FILE = "cocOaTestTests/cocOaTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7055E79C159F604000B6736D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cocOaTest.app/Contents/MacOS/cocOaTest";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocOaTest/cocOaTest-Prefix.pch";
+				INFOPLIST_FILE = "cocOaTestTests/cocOaTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7055E75F159F603F00B6736D /* Build configuration list for PBXProject "cocOaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7055E795159F604000B6736D /* Debug */,
+				7055E796159F604000B6736D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7055E797159F604000B6736D /* Build configuration list for PBXNativeTarget "cocOaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7055E798159F604000B6736D /* Debug */,
+				7055E799159F604000B6736D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7055E79A159F604000B6736D /* Build configuration list for PBXNativeTarget "cocOaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7055E79B159F604000B6736D /* Debug */,
+				7055E79C159F604000B6736D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7055E75C159F603F00B6736D /* Project object */;
+}
